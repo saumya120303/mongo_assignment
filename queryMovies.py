@@ -2,7 +2,7 @@ import pymongo
 
 # Establish MongoDB connection
 client = pymongo.MongoClient("mongodb://localhost:27017/")
-db = client["mongodb_assignment_aman_TAS208"]
+db = client["mongodb_assignment_saumya_TAS207"]
 
 
 def find_top_rated_movies(N):

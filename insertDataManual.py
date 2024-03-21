@@ -4,8 +4,8 @@ import datetime
 # Manually enter user data
 user_data = {
     "_id": "59b99db4cfa9a34dzz7885b6",
-    "name": "Aman Pandey",
-    "email": "amanpandey3007@gmail.com",
+    "name": "Saumya Rani",
+    "email": "saumya12032003@gmail.com",
     "password": "$2b$12$UREFwsRUoyF0CRqGNK0LzO0HM/jLhgUCNNIJ9RJAqMUQ74crlJ1Vu"
 }
 
@@ -73,7 +73,7 @@ comments_data = {
 
 # Establish MongoDB connection
 client = pymongo.MongoClient("mongodb://localhost:27017/")
-db = client["mongodb_assignment_aman_TAS208"]
+db = client["mongodb_assignment_saumya_TAS207"]
 
 # Define functions to insert data into MongoDB collections
 def insert_new_comment(comments_data):

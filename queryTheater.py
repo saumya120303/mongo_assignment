@@ -4,7 +4,7 @@ mongodb_host = 'localhost'
 mongodb_port = 27017
 
 client = pymongo.MongoClient(mongodb_host, mongodb_port)
-db = client['mongodb_assignment_aman_TAS208']
+db = client['mongodb_assignment_saumya_TAS207']
 collection = db['theaters']
 
 db.theaters.create_index([("location.geo","2dsphere")])

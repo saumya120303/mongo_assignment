@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 # Establish MongoDB connection
 client = pymongo.MongoClient("mongodb://localhost:27017/")
-db = client["mongodb_assignment_aman_TAS208"]
+db = client["mongodb_assignment_saumya_TAS207"]
 
 # a. Comments Collection
 # Find top 10 users who made the maximum number of comments

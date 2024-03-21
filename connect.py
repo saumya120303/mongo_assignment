@@ -6,7 +6,7 @@ import bson.json_util
 # MongoDB connection parameters
 mongodb_host = 'localhost'
 mongodb_port = 27017
-database_name = 'mongodb_assignment_aman_TAS208'
+database_name = 'mongodb_assignment_saumya_TAS207'
 collection_name1 = 'users'
 collection_name2 = 'comments'
 collection_name3 = 'theaters'
@@ -22,10 +22,10 @@ collection4 = db[collection_name4]
 
 # Read the JSON file
 
-json_file_path1='/Users/amanpandey/Desktop/MONGODB ASSIGNMENT/users.json'
-json_file_path2='/Users/amanpandey/Desktop/MONGODB ASSIGNMENT/comments.json'
-json_file_path3='/Users/amanpandey/Desktop/MONGODB ASSIGNMENT/theaters.json'
-json_file_path4='/Users/amanpandey/Desktop/MONGODB ASSIGNMENT/movies.json'
+json_file_path1='/Users/saumya/Desktop/MONGODB ASSIGNMENT/users.json'
+json_file_path2='/Users/saumya/Desktop/MONGODB ASSIGNMENT/comments.json'
+json_file_path3='/Users/saumya/Desktop/MONGODB ASSIGNMENT/theaters.json'
+json_file_path4='/Users/saumya/Desktop/MONGODB ASSIGNMENT/movies.json'
 
 with open(json_file_path1, 'r') as file:
     for line in file:
